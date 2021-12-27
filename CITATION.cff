@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Edholm, Hohn, Radunskaya
+    given-names: Christina, Maryann, Ami
+title: "My Research Software"
+version: 2.0.4
+date-released: 2021-12-27
