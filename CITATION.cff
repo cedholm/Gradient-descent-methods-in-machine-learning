@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Edholm
+    given-names: Christina
+  - family-names: Hohn
+    given-names: Maryann
+  - family-names: Radunskaya
+    given-names: Ami
+title: "Gradient Descent Methods in Machine Learning"
+date-released: 2022-2-22
+url: "https://github.com/cedholm/Gradient-descent-methods-in-machine-learning"

@@ -1,0 +1,76 @@
+\documentclass[addpoints]{exam}
+
+% Packages
+\usepackage{amsmath, amssymb, verbatim}
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[colorlinks=true]{hyperref}
+
+% Style
+\setlength{\parindent}{0pt}
+\pagestyle{headandfoot}
+\cfoot{ Page \thepage\,of \numpages}
+
+% Define commands
+\def\course{Gradient descent methods in machine learning}
+\def\docTitle{Python Startup Guide}
+\def\profName{Christina J. Edholm, Maryann E. Hohn, Ami E. Radunskaya}
+
+% Shortcuts
+\newcommand{\abs}[1]{\left \lvert#1\right \rvert} %absolute value
+
+\begin{document}
+
+% Heading
+{\center \textsc{\Large \docTitle}\\
+%	\vspace*{1em}
+	\large\course\\
+	\profName\\
+	\vspace*{1em}
+	\hrule
+\vspace*{2em}}
+
+We recommend downloading the latest version of Python 3 on your computer if it is not there already.
+
+\section{Downloading Jupyter Notebook}
+
+\textbf{If Python is not already downloaded on your computer}, one of the easiest ways to download and manage packages in Python is by using Anaconda at
+\begin{center}
+    \href{https://www.anaconda.com/download/}{https://www.anaconda.com/download/}.
+\end{center}
+
+The site contains the newest Python distribution and the ability to use Jupyter Notebook.\\
+
+\textbf{If Python is already downloaded on your computer}, be sure to update your packages. If you do not have Jupyter Notebook installed, it can be downloaded separately at
+\begin{center}
+    \href{https://jupyter.org/install}{https://jupyter.org/install}.
+\end{center}
+
+\section{Getting started}
+Once Jupyter Notebook is installed, you can start the program in a variety of ways.  In all cases, your default web browser will launch the program, which will start with a list of files on your computer.  Here are the top two:
+\begin{itemize}
+    \item If you downloaded Anaconda, click on Anaconda Navigator in your applications folder.  A list of programs appears where one of the programs is Jupyter Notebook.  Click on Jupyter Notebook.  
+    %\item If you did not download Anaconda, find Jupyter Notebook on your computer.
+    \item Open Terminal (Mac) or the Command Prompt (Windows), depending on your computer.  Type 
+    \begin{verbatim}
+        jupyter notebook
+    \end{verbatim}
+\end{itemize}
+To get started, we highly suggest reading the tutorial on Jupyter Notebook at
+\begin{center}
+    \href{https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook}{https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook}.
+\end{center}
+Another great way to get started is to read/do the examples at
+\begin{center}
+    \href{http://hplgit.github.io/bumpy/doc/pub/._basics000.html}{http://hplgit.github.io/bumpy/doc/pub/.\_basics000.html}.
+\end{center}
+They include how to evaluate mathematical functions, how to print, for loops, while loops, lists, arrays, and using packages like numpy, matplotlib.pyplot, and math.  The examples are great! Highly recommended.\\
+
+If you are a video person and not familiar with Python, you may want to consider watching some DataCamp videos
+\begin{center}
+    \href{https://www.datacamp.com/courses/intro-to-python-for-data-science}{https://www.datacamp.com/courses/intro-to-python-for-data-science}
+\end{center}
+
+\end{document}
